@@ -1,0 +1,133 @@
+body {
+    background-image: url(../image/dark2.jpg);
+    background-size: 1280px 100%;
+    background-repeat: no-repeat;
+    color: rgb(31, 38, 53);
+}
+#nav {
+    margin: 0;
+    list-style: none;
+    word-spacing: 2em;
+    position: absolute;
+}
+
+nav {
+    background-color: #2196f3;
+    padding: 2%;
+    position: fixed;
+    width: 100%;
+    opacity: 0.95;
+    margin-top: 0;
+}
+
+#nav li {
+    display: inline-block;
+    padding: 0.5%;
+    font-size: 1.2em;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: rgb(226, 234, 255);
+}
+
+#nav li a:hover {
+    color: #b8dbfa;
+    background: rgb(241, 68, 68);
+    box-shadow: 0 0 10px rgb(241, 68, 68),0 0 40px rgb(241, 68, 68), 0 0 80px rgb(241, 68, 68);
+    transition: 0.3s ease;
+    border-radius: 5%;
+}
+#home img {
+    width: 96vw;
+    height: 100vh;
+    opacity: 0.9;
+}
+.welcome {
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    color: rgba(182, 197, 248, 0.808);
+    font-size: 4em;
+    padding: 10%;
+    font-family: 'Fredoka One', cursive;
+}
+.heading {
+    font-size: 2.5em;
+    font-family: font-family 'Fredoka One', cursive;
+    font-family: 'Audiowide', cursive;
+    padding:2%;
+    color: rgb(22, 58, 85);
+}
+#about {
+    width: 97%;
+}
+#about .col-md-4 img {
+    width: 90%;
+    height: 90%;
+}
+#about .col-md-2 img {
+    width: 98%;
+    height: 97%;
+    margin-top: 10px;
+}
+#about .col-md-3 img {
+    width: 90%;
+    height: 90%;
+}
+p {
+    padding: 7%;
+}
+#more {
+    cursor: pointer;
+    background-color: rgba(5, 5, 134, 0.61);
+    margin-left: 830px;
+    color: rgb(200, 218, 253);
+    font-family: font-family 'Fredoka One', cursive;
+    font-family: 'Audiowide', cursive;
+}
+#contact .col-md-4 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 120px;
+}
+#contact p {
+    margin-left: 70px;
+}
+#contact .heading {
+    text-align: center;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.781);
+    background-size: 100vw 40vh;
+    color: rgb(133, 200, 255);
+}
+footer i {
+    margin-left: 10%;
+    margin-top: 3%;
+}
+footer button {
+    color: rgb(255, 208, 208);
+    background-color: #1b276e;
+    border-radius: 10%;
+    margin-left: 10px;
+    padding: 1%;
+}
+footer label {
+    color: rgb(237, 237, 253);
+    background-color: rgb(248, 3, 3);
+    padding: 1%;
+    font-size: 1.2em;
+}
+footer .col-md-4 {
+    border-right:3px rgba(170, 170, 241, 0.575) solid;
+}
+footer .cr {
+    text-align: center;
+    padding: 0;
+}
+
+
+
+
+  
